@@ -14,9 +14,9 @@ function SearchResults(props) {
       </thead>
       <tbody>
       {props.results.map(result => (
-        <tr>
-          <th scope="row" key ={result.id} >{result.id}</th>
-          <td >{result.firstName}</td>
+        <tr key={result.id}>
+          <th scope="row">{result.id}</th>
+          <td>{result.firstName}</td>
           <td>{result.lastName}</td>
           <td>{result.title}</td> 
         </tr>

@@ -3,7 +3,7 @@ export const getDeveloper = new Promise(function(resolve) {
   setTimeout(() => {
     resolve(
       [
-        {
+      {
       id: 0,
       title: "Engineer",
       firstName: "Chris",
@@ -32,6 +32,18 @@ export const getDeveloper = new Promise(function(resolve) {
       title: "Engineer",
       firstName: "Adam",
       lastName: "Jones",
+    },
+    {
+      id: 5 ,
+      title: "Manager",
+      firstName: "Tomas",
+      lastName: "Anderson",
+    },
+    {
+      id: 6 ,
+      title: "Engineer",
+      firstName: "Andy",
+      lastName: "Nguyen",
     }
       ]
     );
