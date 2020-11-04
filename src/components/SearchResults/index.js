@@ -1,5 +1,4 @@
 import React from "react";
-import "./style.css";
 
 function SearchResults(props) {
   return (
@@ -12,14 +11,14 @@ function SearchResults(props) {
           <th scope="col">Title</th>
         </tr>
       </thead>
-      <tbody>
+      <tbody >
       {props.results.map(result => (
-        <tr key={result.id}>
+        <tr key={result.id} >
           <th scope="row">{result.id}</th>
           <td>{result.firstName}</td>
           <td>{result.lastName}</td>
           <td>{result.title}</td> 
-        </tr>
+        </tr> 
       ))}
       </tbody>
     </table>  
